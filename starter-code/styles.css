@@ -1,0 +1,253 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* NAVBAR */
+
+.logo {
+  height: 3.25rem;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+ /* HEADER */
+
+.logo {
+  float: left;
+  margin: 0 10px;
+  margin-top: 5px;
+}
+
+.form {
+  position: center;
+  align-items: center;
+  margin-top: 12px;
+  border-style: none;
+}
+
+.search__input {
+  width: 970px;
+  height: 40px;
+  border-style: solid;
+  border-width: 0.2px;
+  border-color: #67758B;
+  margin-right: 0px;
+}
+
+.nav-search {
+  float: right;
+}
+
+.nav-bar-right li, a {
+  display: inline-block;
+  padding: 0 3px 20px 3px; 
+  margin: 5px 0 5px 0;
+  align-items: right;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  background: url(./images/city-scape.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 630px;
+  padding-top: 50px;
+  position: relative;
+  color: white;
+}
+
+.header-info {
+  margin: 0 auto;
+  width: 700px;
+  padding: 15px;
+}
+
+.header-nav {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* BUTTOMS */
+
+.org__buttom {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  width: 12rem;
+  padding: .8rem;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.install__is__npm__buttom {
+  color: white;
+  height: 40rem;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+}
+
+.install__npm__buttom {
+  color: white;
+  background-color: rgb(49, 68, 88);
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  width: 9rem;
+  padding: .8rem;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+.sign__up__buttom {
+  color: white;
+  background-color: rgb(240, 146, 51);
+  border-radius: 40px;
+  width: 12rem;
+  padding: .8rem;
+  margin-top: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+}
+
+.btn {
+  padding: 0;
+  color: white;
+  background-color: #1F5271;
+  border-color: #67758B;
+  border-style: solid;
+  border-left: none;
+  height: 40px;
+  width: 35px;
+  border-radius: 0;
+  scroll-margin-left: 0;
+  margin-top: -2px;
+}
+
+#section-2 {
+  display: flex;
+  background: url(./images/forklift.svg) 0 0 no-repeat;
+  background-size: cover;
+  height: 630px;
+  padding-top: 50px;
+  position: relative;
+  color: white;
+}
+
+.what__is__npm {
+  position: absolute;
+  float: left;
+  margin-left: 100px;
+  margin-top: 80px;
+  padding: 50px;
+  width: 400px;
+}
+
+.building-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  margin: 0 auto;
+  width: 976px;
+  padding: 50px 15px;
+}
+
+.blocks-section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#section-1 {
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+.collaboration {
+  margin: 0 auto;
+  display: flex;
+  height: 530px;
+}
+
+.collaboration__img {
+  height: 250px;
+  margin: 80px 0 0 50px;
+}
+
+.collaboration-div {
+  display: flex;
+  padding: 15px;
+  margin: 0 auto;
+  height: 400px;
+  letter-spacing: 1px;
+}
+
+.npm__org {
+  float: right;
+  margin: 80px 0 0 50px;
+  letter-spacing: 1.5px;
+}
+
+.binocular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 1px;
+}
+
+.mountain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.backpack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  line-height: 30px; 
+}
